@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps"
+        android:textSize="30sp"
+        android:id="@+id/act_menu_text_tittle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/act_menu_text_tittle"
+        android:gravity="center"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spotify Streamer"
+            android:id="@+id/act_menu_btn_spotify"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_normal"
+            android:background="@color/color_act_menu_btn_normal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Football Scores App"
+            android:id="@+id/act_menu_btn_scores"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_normal"
+            android:background="@color/color_act_menu_btn_normal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Library App"
+            android:id="@+id/act_menu_btn_library"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_normal"
+            android:background="@color/color_act_menu_btn_normal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Build It Bigger"
+            android:id="@+id/act_menu_btn_build"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_normal"
+            android:background="@color/color_act_menu_btn_normal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XYZ Reader"
+            android:id="@+id/act_menu_btn_reader"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_normal"
+            android:background="@color/color_act_menu_btn_normal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capstone"
+            android:id="@+id/act_menu_btn_capstone"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/color_act_menu_text_capstone"
+            android:background="@color/color_act_menu_btn_capstone"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

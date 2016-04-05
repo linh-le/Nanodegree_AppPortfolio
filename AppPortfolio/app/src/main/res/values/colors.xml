@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_act_menu_btn_normal">#F08C35</color>
+    <color name="color_act_menu_btn_capstone">@android:color/holo_red_light</color>
+    <color name="color_act_menu_text_normal">@android:color/black</color>
+    <color name="color_act_menu_text_capstone">@android:color/white</color>
+
+
+</resources>
